@@ -13,7 +13,7 @@
         overflow: hidden;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
         transition: transform 0.4s ease, box-shadow 0.4s ease;
-        background: #000;
+        background: #fbfbfb;
         }
        
         .imagen-diseño:hover {
@@ -41,13 +41,55 @@
 }
 .texto {
             display: flex;
-            justify-content: right;
-            align-items: center;
+            justify-content: left;
+            align-items: none;
             min-height: 0vh;
         }
-.texto2 {
+.texto-2 {
       display: flex;
             justify-content: left;
             align-items: center;
             min-height: 0vh;
+}
+.parrafo {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: right;
+}
+
+.parrafo p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.parrafo a {
+  display: block;
+  margin-top: 5px;
+  color: #ffd700;
+  text-decoration: none;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto; /* empuja el footer hacia abajo */
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
 }
